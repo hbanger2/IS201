@@ -1,0 +1,130 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Overall page styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: lightblue;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container to center everything */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #2e3b4e;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Intro text */
+#intro p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Lists */
+ol, ul {
+    margin-left: 20px;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Side-by-side images */
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Makes it responsive on smaller screens */
+}
+
+.image-row img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/* Fun Facts */
+.fact {
+    background-color: #e0f7fa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-left: 6px solid #00acc1;
+    border-radius: 5px;
+}
+
+/* Link styles */
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Bottom thank you section */
+#bottom {
+    text-align: center;
+    font-size: 1.3rem;
+    color: #2e3b4e;
+}
+
+/* Center YouTube iframe */
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+#back-to-top {
+    text-align: center;
+    margin-top: 40px;
+}
+
+#back-to-top button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#back-to-top button:hover {
+    background-color: #005f99;
+}
